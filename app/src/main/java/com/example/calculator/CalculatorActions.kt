@@ -6,6 +6,7 @@ sealed class CalculatorActions {
     object Delete: CalculatorActions()
     object Decimal: CalculatorActions()
     object Calculate: CalculatorActions()
-    object Bracket: CalculatorActions()
+    object BracketOpen: CalculatorActions()
+    object BracketClose: CalculatorActions()
     data class Operation(val operation: CalculatorOperations): CalculatorActions()
 }

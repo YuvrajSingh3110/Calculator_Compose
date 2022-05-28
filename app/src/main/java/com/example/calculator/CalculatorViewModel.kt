@@ -13,11 +13,25 @@ class CalculatorViewModel: ViewModel() {
         when(action) {
             is CalculatorActions.Number -> enterNumber(action.number)
             is CalculatorActions.Decimal -> enterDecimal()
+            is CalculatorActions.BracketOpen -> enterBracketOpen()
+            is CalculatorActions.BracketClose -> enterBracketClose()
             is CalculatorActions.Clear -> state = CalculatorState()
             is CalculatorActions.Operation -> enterOperation(action.operation)
             is CalculatorActions.Calculate -> performCalculation()
             is CalculatorActions.Delete -> performDeletion()
         }
+    }
+
+    private fun enterBracketClose() {
+        state = state.copy(
+            number1 = state.number1 + ")"
+        )
+    }
+
+    private fun enterBracketOpen() {
+            state = state.copy(
+                number1 = "(" + state.number1
+            )
     }
 
     private fun enterOperation(operation: CalculatorOperations){
