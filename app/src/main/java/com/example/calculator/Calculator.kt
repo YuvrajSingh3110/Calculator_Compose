@@ -13,7 +13,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.calculator.ui.theme.LightGray
-import com.example.calculator.ui.theme.Green
+import com.example.calculator.ui.theme.Orange
 
 @Composable
 fun Calculator(
@@ -73,7 +73,7 @@ fun Calculator(
                 )
                 CalculatorButton(symbol = "/",
                 modifier = Modifier
-                    .background(Green)
+                    .background(Orange)
                     .aspectRatio(1f)
                     .weight(1f),
                 onClick ={
@@ -114,7 +114,7 @@ fun Calculator(
                 )
                 CalculatorButton(symbol = "x",
                     modifier = Modifier
-                        .background(Green)
+                        .background(Orange)
                         .aspectRatio(1f)
                         .weight(1f),
                     onClick ={
@@ -155,7 +155,7 @@ fun Calculator(
                 )
                 CalculatorButton(symbol = "+",
                     modifier = Modifier
-                        .background(Green)
+                        .background(Orange)
                         .aspectRatio(1f)
                         .weight(1f),
                     onClick ={
@@ -196,7 +196,7 @@ fun Calculator(
                 )
                 CalculatorButton(symbol = "-",
                     modifier = Modifier
-                        .background(Green)
+                        .background(Orange)
                         .aspectRatio(1f)
                         .weight(1f),
                     onClick ={
@@ -237,7 +237,7 @@ fun Calculator(
                 )
                 CalculatorButton(symbol = "=",
                     modifier = Modifier
-                        .background(Green)
+                        .background(Orange)
                         .aspectRatio(1f)
                         .weight(1f),
                     onClick ={
