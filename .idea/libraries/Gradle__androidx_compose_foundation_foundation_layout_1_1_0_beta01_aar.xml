@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.compose.foundation:foundation-layout:1.1.0-beta01@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/caches/transforms-3/19ee6d4a6c9069320f5bcb1cb300fa87/transformed/foundation-layout-1.1.0-beta01/res" />
+      <root url="file://$USER_HOME$/caches/transforms-3/19ee6d4a6c9069320f5bcb1cb300fa87/transformed/foundation-layout-1.1.0-beta01/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/caches/transforms-3/19ee6d4a6c9069320f5bcb1cb300fa87/transformed/foundation-layout-1.1.0-beta01/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f8007f6dc3ab6e641dfa94bb5bf15591/transformed/foundation-layout-1.1.0-beta01/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f8007f6dc3ab6e641dfa94bb5bf15591/transformed/foundation-layout-1.1.0-beta01/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f8007f6dc3ab6e641dfa94bb5bf15591/transformed/foundation-layout-1.1.0-beta01/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.compose.foundation/foundation-layout/1.1.0-beta01/d61092a870344168c72f3b5198ef3ed7fb69ff17/foundation-layout-1.1.0-beta01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
